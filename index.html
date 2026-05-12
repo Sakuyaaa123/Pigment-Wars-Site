@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pigment Wars</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div class="logo-nav">
+      <img src="Images/logo.png" alt="Pigment Wars Logo" />
+      <nav class="nav-links">
+        <a href="#cover">Home</a>
+        <a href="Pigment Wars-Features.html">Features</a>
+        <a href="Pigment Wars-FAQs.html">FAQs</a>
+        <a href="Pigment Wars-About.html">About Us</a>
+        <a href="Pigment Wars-Contacts.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="cover" id="cover">
+    <img src="Images/PigmentWars Logo.png" alt="Pigment Wars Title" class="title-image">
+    <video id="gameTrailer" autoplay muted loop>
+      <source src="pigment wars - teaser.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <a href="https://drive.google.com/uc?export=download&id=1p5qCtrmCw5wrZrdiO3OvK1OAMEhfaJ6h" class="play-button">Play Now</a>
+  </div>
+
+  <img src="Images/skybox1.png" style="  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: -200px;
+  z-index: 0;
+  object-fit: cover;
+  pointer-events: none;
+
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 40%, black 90%, transparent 100%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+" />
+
+  <section id="home" class="section">
+    <div class="overview-frame">
+      <div class="overview-content">
+        <h2>Game Overview</h2>
+        <p>
+          <b>Unleash your inner artist in the heat of competition with Pigment Wars!</b><br>
+          This 3D multiplayer casual game transforms painting into a thrilling showdown for color dominance, where every roll of your brush leaves a vibrant mark. Take control of a quirky bean-like figure and dive into fast-paced matches across dynamic arenas—from floating tiles to spinning cubes—each one a canvas filled with creative chaos. Whether you’re a precise path painter or a bold territory roller, there’s a place for every playstyle. Cover the arena in your team’s color, outpaint your rivals, and prove your dominance. Will your color reign supreme?
+        </p>
+      </div>
+    </div>
+
+    <h3>Screenshots</h3>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="Images/Screenshots/GameStart.png" alt="Gameplay Screenshot 1">
+        <img src="Images/Screenshots/ColorPicking.png" alt="Gameplay Screenshot 2">
+        <img src="Images/Screenshots/Gameplay.png" alt="Gameplay Screenshot 3">
+      </div>
+    <button class="carousel-btn prev">&#10094;</button>
+    <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <img src="Images/skybox1.png" alt="Fade Transition" class="section-fade-image"/>
+
+  <section id="features" class="section">
+    <h2>Game Features</h2>
+    <div class="features-row">
+      <div class="feature-item">
+        <div class="feature-box">
+          <img src="Images/Features/multiplayer Battles.jpg" alt="Multiplayer Battles">
+        </div>
+        <div class="feature-text">
+          <h3>3D Multiplayer Battles</h3>
+          <p>Engage in thrilling paint fights with players from around the globe in dynamic 3D arenas!</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-box">
+          <img src="Images/Features/DynamicArena.png" alt="Dynamic Arenas">
+        </div>
+        <div class="feature-text">
+          <h3>Dynamic Arenas with Floating Platforms</h3>
+          <p>Fight on floating platforms that challenge your balance and strategy in real time.</p>
+        </div>
+      </div>
+  
+      <div class="feature-item">
+        <div class="feature-box">
+          <img src="Images/Features/paintingMechanics.png" alt="Power-Ups">
+        </div>
+        <div class="feature-text">
+          <h3>Territory Painting</h3>
+          <p>Occupy as many tiles as possible with your color using skillful movement and timing.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <div class="feature-box">
+          <img src="Images/Features/unity netcode(1).jpg" alt="Netcode">
+        </div>
+        <div class="feature-text">
+          <h3>Smooth Online Play</h3>
+          <p>Thanks to Unity's Netcode, enjoy seamless and synchronized multiplayer gameplay.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <a href="Pigment Wars-Features.html" class="learn-more-button">Learn More</a>
+    </div>
+  </section>
+
+  <img src="Images/skybox1.png" alt="Fade Transition" class="section-fade-image" />
+  
+  <section id="about-us" class="section">
+    
+    <div class="team-container">
+      <h2>Team Members</h2>
+      <div class="team-row row-4">
+        <div class="team-member">
+          <img src="Images/Members/Yu 2x2.jpeg" alt="Team Member 1">
+          <h4>Yu, Shiela Mae</h4>
+          <p>Project Manager</p>
+        </div>
+        <div class="team-member">
+          <img src="Images/Members/clarence 2x2.png" alt="Team Member 2">
+          <h4>De Guzman, Clarence</h4>
+          <p>Lead Programmer</p>
+        </div>
+        <div class="team-member">
+          <img src="Images/Members/CASANILLO.jpg" alt="Team Member 3">
+          <h4>Casanillo, Jairah May</h4>
+          <p>3D Artist/UI Designer</p>
+        </div>
+        <div class="team-member">
+          <img src="Images/Members/vidal pic 2x2.png" alt="Team Member 4">
+          <h4>Vidal, Irish Jade</h4>
+          <p>Game Designer</p>
+        </div>
+      </div>
+      
+      <div class="team-row row-3">
+        <div class="team-member">
+          <img src="Images/Members/maria 2x2.jpg" alt="Team Member 5">
+          <h4>Oliveros, Maria Abegail</h4>
+          <p>3D Artist</p>
+        </div>
+        <div class="team-member">
+          <img src="Images/Members/taneo.png" alt="Team Member 6">
+          <h4>Taneo, Jhon Lester</h4>
+          <p>Sound Engineer</p>
+        </div>
+        <div class="team-member">
+          <img src="Images/Members/Garcia 2x2.png" alt="Team Member 7">
+          <h4>Garcia, Precious Ann</h4>
+          <p>Game Designer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feedback, or just want to reach out—fill out the form below!</p>
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  </section>  
+
+  <footer>
+    <div class="container">
+      <!-- Logo Image -->
+      <div class="logo-row">
+        <img src="Images/PigmentWars IconSB.png" alt="PigmentWarsLogo" class="mini-logo" />
+        <img src="Images/EMC LOGO.png" alt="EmcLogo" class="mini-logo" />
+        <img src="Images/Cloud3 SB.png" alt="CloudILogo" class="mini-logo" />
+      </div>
+
+    <p>Connect with us on social media:</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.discord.com" target="_blank" aria-label="Discord">
+        <i class="fab fa-discord"></i>
+      </a>
+    </div>
+    <h5>&copy; 2025 Pigment Wars. All rights reserved.</h5>
+    <img src="Images/skybox12.png" alt="Fade Transition" class="section-fade-image" />
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
